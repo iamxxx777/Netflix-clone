@@ -9,7 +9,6 @@ const Row = ({ title, endParam, topRow }) => {
 
     const [movies, setMovies] = useState([]);
     const [translate, setTranslate] = useState(0);
-    const [trailerUrl, setTrailerUrl] = useState("");
 
     // Getting the movies from tmdb api
     useEffect(() => {
@@ -44,7 +43,7 @@ const Row = ({ title, endParam, topRow }) => {
 
         }
     }
-    
+
     */
 
     // Handle the translate buttons on large screen, hidden on small screen

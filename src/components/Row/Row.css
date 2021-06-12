@@ -102,4 +102,19 @@
     .movie-row {
         padding-left: 0;
     }
+    .named-row {
+        min-width: 150px;
+    }
+    .named-row p {
+        font-size: 14px;
+    }
+    .movie-img {
+        max-height: 120px;
+    }
+    .top-row {
+        max-height: 200px;
+    }
+    .row h1 {
+        font-size: 17px;
+    }
 }
