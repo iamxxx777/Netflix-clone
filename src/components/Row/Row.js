@@ -52,7 +52,6 @@ const Row = ({ title, endParam, topRow }) => {
             return null;
         } else {
             setTranslate(translate + (value));
-            console.log(translate);
         }
     };
 
