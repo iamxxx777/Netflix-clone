@@ -45,6 +45,7 @@
 
 .movies {
     display: flex;
+    transition: 0.4s ease;
 }
 
 .movies::-webkit-scrollbar {
